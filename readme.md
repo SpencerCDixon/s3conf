@@ -4,14 +4,7 @@ A simple CLI for updating S3 credentials when using the
 
 ### Usage
 ```sh
-git clone git@github.com:SpencerCDixon/s3conf.git
-cd s3conf
-npm install
-npm link
-```
-
-Then to reset your access/secret key:
-```sh
+npm i s3conf -g
 s3conf
-// follow along with prompts
+// follow along with prompts...
 ```
