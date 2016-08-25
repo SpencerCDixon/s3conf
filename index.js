@@ -2,6 +2,7 @@ const fs    = require('fs');
 const path  = require('path');
 const rl    = require('readline-sync');
 const chalk = require('chalk');
+const os    = require('os');
 
 // Utility Functions
 const prompt = s => chalk.cyan(s);
@@ -9,7 +10,7 @@ const success = s => chalk.green(s);
 const info = s => chalk.white(s);
 
 // Configuration
-const CONFIG_PATH = path.resolve(process.env.HOME, '.s3cfg');
+const CONFIG_PATH = path.resolve(os.homedir(), '.s3cfg');
 const accessKey = rl.question(prompt('access_key: '));
 const secretKey = rl.question(prompt('secret_key: '));
 
