@@ -1,0 +1,23 @@
+{
+  "name": "s3conf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "aws",
+    "amazon"
+  ],
+  "bin": {
+    "s3conf": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "readline-sync": "^1.4.4"
+  }
+}
